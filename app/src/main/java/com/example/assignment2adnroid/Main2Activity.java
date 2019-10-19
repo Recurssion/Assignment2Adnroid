@@ -16,6 +16,8 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        System.out.println("test");
+
         recyclerView=findViewById(R.id.recycleView);
 
         StudentDateSaurce studentDateSaurce=StudentDateSaurce.getInstance();
